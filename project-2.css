@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.hom{
+    width: 100%;
+    height: 100vh;
+    background-image: url(pexels-pixabay-90764.jpg);
+    background-size: cover;
+}
+.nav{
+    width: 90%;
+    padding-left:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+}
+.logo span{
+    color: #8e0036;
+}
+.hom ul{
+    list-style: none;
+}
+.hom ul li{
+    padding: 20px 30px;
+    display: inline-block;
+
+
+}
+.hom ul li a{    
+
+    color: white;
+    text-decoration: none;
+    transition:  .3s;
+    font-size: 15px;
+    z-index: 999;
+}
+.hom .home{
+    color: #8e0036;
+}
+.hom .links li a:hover{
+    color: #8e0036;
+}
+.hom .bot{
+    color: white;
+    font-size: 17px;
+    padding: 13px 40px;
+    margin-top: 10px;
+    background-color: #8e0036;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: .3s;
+}
+.hom .bot:hover{
+    transform: scale(1.15);
+}
+.hom .text {
+    position: absolute;
+    bottom: 300px ;
+    left: 50px;
+
+}
+.text h4{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.text h1{
+    color: white;
+    word-spacing: 10px;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.text h1 span{
+    color: #8e0036;
+}
+.text h3{
+    color: white;
+    font-size: 20px;
+}
+.text a{
+    padding: 10px 20px ;
+    margin: 0px 10px;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: -10px;
+    background-color: #a80419;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px #a80419 solid;
+    transition: .3s;
+}
+.text a:hover{
+    transform: scale(1.2);
+    opacity: .8;
+}
+.sotion{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+.sotion  ul li {
+
+margin-right: 140px;
+font-size: 30px;
+}    
+.sotion ul li a {
+    font-size: 30px;
+}
+.sotion span{
+    padding-left:5PX ;
+}
+.sotion ul .github {
+    color:white;
+}
+.sotion ul .twitter {
+    color: rgb(27, 132, 230);
+
+}
+.sotion ul .whatsapp {
+    color: #25D366;
+
+}
+
+
+.sotion ul li .twitter:hover{
+    color: rgb(27, 132, 230);
+}
+.sotion ul li .whatsapp:hover{
+    color: #25D366;
+}
+.sotion ul li .github{
+    color: white
+}
+.hom2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(21, 21, 21);
+}
+.hom2 img{
+    border-radius: 5px;
+    position: absolute;
+    right: 650px;
+    top: 800px;
+    transition: .3s;
+}
+.hom2 img:hover{
+    box-shadow: -5px -8px 39px -12px rgba(0,0,0,0.75);
+
+    transform: scale(1.05);
+}
+.text2 h1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    color: #8e0036;
+
+}
+.text2 h3{
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 135px;
+    left: 400px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.text2 h3 span{
+color: #8e0036;
+}
+
+.text2 p{
+    color: white;
+    line-height: 20px;
+    width: 35%;
+    position: relative;
+    top: 165px;
+    left: 400px;
+}
+/*Home3*/
+.hom3{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(21, 21, 21);
+
+}
+
+.hom3 h1{
+    position: relative;
+    display: inline-block;
+    top: 120px;
+    left: 39%;
+    color: #8e0036;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.a{
+display: flex;
+justify-content: space-around;
+position: relative;
+top: 250px;
+}
+.a1 , .a2 , .a3{
+color: #8e0036;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.a1 i , .a2 i , .a3 i{
+    font-size: 30px;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+.a1 h3, .a2 h3 , .a3 h3{
+    padding-left: 100px;
+    margin-top: 20px;
+}
+.a1 p , .a2 p , .a3 p{
+    width: 200px;
+    margin-left: 60px;
+    margin-top: 20px;
+    color: white;
+}
+.a1  .button, .a2 .button , .a3 .button{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 23px;
+    background-color: #8e0036;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+.a1  .button:hover, .a2 .button:hover , .a3 .button:hover{
+    transform: scale(1.1);
+    box-shadow: 12px 16px 179px -131px rgba(0,0,0,0.61) inset;
+
+
+}
+
+
